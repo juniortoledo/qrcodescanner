@@ -22,13 +22,13 @@
       </div>
 
       <!-- botão scanner -->
-      <div class="col-sm-12 col-md-4 offset-md-3 mt-5" id="root">
-        <div id="qr-reader" class="w-100"></div>
+      <div class="col-sm-12 col-md-4 offset-md-4 mt-3 text-center" id="root">
+        <div id="btn" class="btn btn-primary shadow">QR Code</div>
       </div>
     </div>
   </div>
 
-
+  <script src="scanner/jquery.js"></script>
   <script src="scanner/scanner.js"></script>
   <script type="module" src="scanner/main.js"></script>
 </body>
